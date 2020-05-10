@@ -17,7 +17,7 @@ setup(
     url="https://github.com/suraj-deshmukh/Covid19India",
     author="Suraj Deshmukh",
     author_email="surajdeshmukh96@gmail.com",
-    license="MIT",
+    license="MIT LICENSE",
     classifiers=[
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
