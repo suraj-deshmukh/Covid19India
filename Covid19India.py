@@ -7,11 +7,11 @@ class CovidIndia:
     
     '''
     def __init__(self, ):
-        self.base_url = 'https://www.mohfw.gov.in/'
+        self.__base_url = 'https://www.mohfw.gov.in/'
         
     def getcontent(self, ):
         try:
-            r = requests.get(self.base_url)
+            r = requests.get(self.__base_url)
             r.raise_for_status() # raise exception for non 200 status code
             return r.text
         except Exception as e:
