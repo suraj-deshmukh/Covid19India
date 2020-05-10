@@ -2,7 +2,7 @@
 A Python Library to get India's Total Covid patients stats as well State wise stats
 
 
-##Usage
+## Usage
 
 '''
 In [1]: obj = CovidIndia()                                                                                                                                                                                  
