@@ -3,6 +3,7 @@ A Python Library to get India's Total Covid patients stats as well State wise st
 
 
 ##Usage
+
 '''
 In [1]: obj = CovidIndia()                                                                                                                                                                                  
 
@@ -11,6 +12,7 @@ In [2]: total = obj.gettotal()
 In [3]: total                                                                                                                                                                                               
 Out[3]: {'active': 41472, 'recovered': 19358, 'deaths': 2109, 'confirmed': 62939}
 '''
+
 
 '''
 In [4]: state = obj.getstatetotal()                                                                                                                                                                         
