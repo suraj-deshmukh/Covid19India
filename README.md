@@ -6,21 +6,22 @@ A Python Library to get India's Total Covid patients stats as well State wise st
 
 ### To get India's total count
 
-	In [1]: obj = CovidIndia()                                                                                                                                                                                  
-
-	In [2]: total = obj.gettotal()                                                                                                                                                                              
-
-	In [3]: total
+	In [1]: from pprint import pprint                                                                                                                                                                           
 	
-	Out[3]: {'active': 41472, 'recovered': 19358, 'deaths': 2109, 'confirmed': 62939}
+	In [2]: from Covid19India import CovidIndia                                                                                                                                                                 
+	
+	In [3]: obj = CovidIndia()                                                                                                                                                                                  
+	
+	In [4]: total = obj.gettotal()                                                                                                                                                                              
+	
+	In [5]: pprint(total)                                                                                                                                                                                       
+	{'active': 41472, 'confirmed': 62939, 'deaths': 2109, 'recovered': 19358}
 
 ### To get Indian States and UT wise data
 
-	In [4]: state = obj.getstatetotal()                                                                                                                                                                         
-
-	In [5]: state
+	In [6]: state = obj.getstatetotal()                                                                                                                                                                         
 	
-	Out[5]: 
+	In [7]: pprint(state)                                                                                                                                                                                       
 	{'Andaman and Nicobar Islands': {'active': 0,
 									 'confirmed': 33,
 									 'deaths': 0,
