@@ -26,9 +26,4 @@ setup(
     packages=["Covid19India"],
     include_package_data=True,
     install_requires=["requests", "beautifulsoup4"],
-    entry_points={
-        "console_scripts": [
-            "realpython=reader.__main__:main",
-        ]
-    },
 )
