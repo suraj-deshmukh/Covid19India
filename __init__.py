@@ -1,1 +1,0 @@
-from .Covid19India import CovidIndia
