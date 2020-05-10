@@ -1,5 +1,5 @@
 # Covid19India
-A Python3 Library to get India's Total Covid patients stats as well State wise stats
+A Python3 Library to get India's Total Covid patients stats as well as State wise stats
 
 # Installation
 
