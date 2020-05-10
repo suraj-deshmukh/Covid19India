@@ -22,7 +22,6 @@ A Python Library to get India's Total Covid patients stats as well State wise st
 	In [6]: state                                                                                                                                                                                               
 	Out[6]: 
 	{'Andaman and Nicobar Islands': {'active': 0,
-<<<<<<< HEAD
 	  'recovered': 33,
 	  'confirmed': 33,
 	  'deaths': 0},
@@ -30,15 +29,6 @@ A Python Library to get India's Total Covid patients stats as well State wise st
 	  'recovered': 887,
 	  'confirmed': 1930,
 	  'deaths': 44},
-=======
-					 'confirmed': 33,
-					 'deaths': 0,
-					 'recovered': 33},
-	 'Andhra Pradesh': {'active': 999,
-		           'confirmed': 1930,
-			   'deaths': 44,
-		       	   'recovered': 887},
->>>>>>> 48d35947dcd64ebbade34b38dc05c5f2659bd333
 	 'Arunachal Pradesh': {'active': 0,
 	  'recovered': 1,
 	  'confirmed': 1,
