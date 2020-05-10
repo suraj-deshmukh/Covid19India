@@ -6,18 +6,15 @@ A Python Library to get India's Total Covid patients stats as well State wise st
 
 ### To get India's total count
 
-		'''
-		In [1]: obj = CovidIndia()                                                                                                                                                                                  
+	In [1]: obj = CovidIndia()                                                                                                                                                                                  
 
-		In [2]: total = obj.gettotal()                                                                                                                                                                              
+	In [2]: total = obj.gettotal()                                                                                                                                                                              
 
-		In [3]: total                                                                                                                                                                                               
-		Out[3]: {'active': 41472, 'recovered': 19358, 'deaths': 2109, 'confirmed': 62939}
-		'''
+	In [3]: total                                                                                                                                                                                               
+	Out[3]: {'active': 41472, 'recovered': 19358, 'deaths': 2109, 'confirmed': 62939}
 
 ### To get Indian States and UT wise data
 
-		'''
 		In [4]: state = obj.getstatetotal()                                                                                                                                                                         
 
 		In [5]: state                                                                                                                                                                                               
@@ -100,4 +97,3 @@ A Python Library to get India's Total Covid patients stats as well State wise st
 		  'recovered': 372,
 		  'confirmed': 1786,
 		  'deaths': 171}}
-		'''
