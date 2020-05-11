@@ -1,1 +1,1 @@
-from .Covid19India import CovidIndia
+from .covid19india import CovidIndia

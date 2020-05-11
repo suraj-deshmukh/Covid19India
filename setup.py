@@ -10,8 +10,8 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="Covid19India",
-    version="0.0.1",
-    description="A Python Library to get India's Total Covid patients stats as well State wise stats",
+    version="0.0.2",
+    description="A Python3 Library to get India's Covid-19 Patient Count.",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/suraj-deshmukh/Covid19India",
