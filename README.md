@@ -467,6 +467,6 @@ A Python3 Library to get India's Covid-19 Patient Count.
 	  '5/9/20': 19301,
 	  '5/10/20': 20969}}
 
-# Data Source:
+# Data Source
 * [Ministry of Health and Family Welfar Govt of India](https://www.mohfw.gov.in/): For latest counts
 * [NovelCovid](https://github.com/NovelCOVID/API): For historical data
