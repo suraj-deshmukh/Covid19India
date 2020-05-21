@@ -41,16 +41,19 @@ class CovidIndia:
         for i in tdata.find_all('tr'):
             td = i.find_all('td')
             if len(td) == 5 and len(td[0]) > 0:
-                confirmed = int(td[2].text)
-                recovered = int(td[3].text)
-                deaths =  int(td[4].text)
-                active =  confirmed - recovered - deaths 
-                state[td[1].text] = {
-                    'active': active,
-                    'recovered': recovered,
-                    'confirmed': confirmed,
-                    'deaths': deaths,
-                }
+                try:
+                    confirmed = int(td[2].text)
+                    recovered = int(td[3].text)
+                    deaths =  int(td[4].text)
+                    active =  confirmed - recovered - deaths 
+                    state[td[1].text] = {
+                        'active': active,
+                        'recovered': recovered,
+                        'confirmed': confirmed,
+                        'deaths': deaths,
+                    }
+                except Exception as e:
+                    pass
         return state
     
     def __gettime(self, ):
@@ -87,3 +90,7 @@ class CovidIndia:
             return r.json()['timeline']
         except Exception  as e:
             return "Unable to Fetch Data", e
+        
+# if __name__ == '__main__':
+#     obj = CovidIndia()
+#     print(obj.getstats())
