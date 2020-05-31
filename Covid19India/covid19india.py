@@ -40,12 +40,12 @@ class CovidIndia:
         state = {}
         for i in tdata.find_all('tr'):
             td = i.find_all('td')
-            if len(td) == 5 and len(td[0]) > 0:
+            if len(td) == 6 and len(td[0]) > 0:
                 try:
-                    confirmed = int(td[2].text)
+                    active = int(td[2].text)
                     recovered = int(td[3].text)
                     deaths =  int(td[4].text)
-                    active =  confirmed - recovered - deaths 
+                    confirmed = int(td[5].text)
                     state[td[1].text] = {
                         'active': active,
                         'recovered': recovered,
